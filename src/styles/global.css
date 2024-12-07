@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    background-color: #190c12;
+    font-family: Arial, sans-serif;
+    color: #f0dfe8;
+}
+.calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #d098b1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.number-field {
+   display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
